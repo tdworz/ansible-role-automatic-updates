@@ -1,0 +1,5 @@
+---
+
+- name: If on a RHEL-based system, setup dnf-automatic
+  import_tasks: setup-dnf-automatic.yml
+  when: ansible_facts['os_family']|lower == 'redhat'
