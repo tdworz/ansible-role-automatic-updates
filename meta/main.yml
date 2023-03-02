@@ -1,0 +1,35 @@
+galaxy_info:
+  namespace: tdworz
+  role_name: automatic_updates
+  description: An Ansible role to set up automatic updates.
+  author: Tom Dworzanski (tdworz)
+  license: GPL-3.0-or-later
+  issue_tracker_url: https://github.com/tdworz/ansible-role-automatic-updates/issues
+  platforms:
+    - name: EL
+      versions:
+        - 8
+        - 9
+  galaxy_tags:
+    - update
+    - upgrade
+    - auto
+    - automatic
+    - unattended
+    - autoupdate
+    - autoupdates
+    - autoupgrade
+    - autoupgrades
+    - automaticupdate
+    - automaticupdates
+    - automaticupgrade
+    - automaticupgrades
+    - unattendedupdate
+    - unattendedupdates
+    - unattendedupgrade
+    - unattendedupgrades
+    - apt
+    - dnf
+    - dnfautomatic
+
+dependencies: []
